@@ -18,6 +18,7 @@
 		D1ED4BB9216F814800697255 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1ED4BB8216F814800697255 /* GradientView.swift */; };
 		D1ED4BBC216F93B100697255 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1ED4BBB216F93B100697255 /* Constants.swift */; };
 		D1ED4BBE216F970100697255 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1ED4BBD216F970100697255 /* LoginVC.swift */; };
+		D1ED4BC1216F9B6A00697255 /* CreateAccountVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1ED4BC0216F9B6A00697255 /* CreateAccountVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,7 @@
 		D1ED4BB8216F814800697255 /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
 		D1ED4BBB216F93B100697255 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		D1ED4BBD216F970100697255 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		D1ED4BC0216F9B6A00697255 /* CreateAccountVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountVC.swift; sourceTree = "<group>"; };
 		EA45A79AC5962AC42B0C8F52 /* Pods-smack.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-smack.release.xcconfig"; path = "Pods/Target Support Files/Pods-smack/Pods-smack.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -102,6 +104,7 @@
 				D1ED4BB4216EDF1000697255 /* ChatVC.swift */,
 				D1ED4BB6216EDF2600697255 /* ChannelVC.swift */,
 				D1ED4BBD216F970100697255 /* LoginVC.swift */,
+				D1ED4BC0216F9B6A00697255 /* CreateAccountVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -268,6 +271,7 @@
 			files = (
 				D1ED4BB7216EDF2600697255 /* ChannelVC.swift in Sources */,
 				D1ED4BB5216EDF1000697255 /* ChatVC.swift in Sources */,
+				D1ED4BC1216F9B6A00697255 /* CreateAccountVC.swift in Sources */,
 				D1ED4BBE216F970100697255 /* LoginVC.swift in Sources */,
 				D1ED4BB9216F814800697255 /* GradientView.swift in Sources */,
 				D1ED4B9B216ED9E300697255 /* AppDelegate.swift in Sources */,
