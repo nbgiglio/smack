@@ -10,6 +10,8 @@
 		218C2CD7C64A0564072DD2D7 /* Pods_smack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA35C163863C281180AE5EA9 /* Pods_smack.framework */; };
 		D171EDA12170EE9700FCF15D /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D171EDA02170EE9700FCF15D /* RoundedButton.swift */; };
 		D171EDA321710A6900FCF15D /* UserDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D171EDA221710A6900FCF15D /* UserDataService.swift */; };
+		D171EDA521711C5800FCF15D /* AvatarPickerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D171EDA421711C5800FCF15D /* AvatarPickerVC.swift */; };
+		D171EDA721711F7000FCF15D /* AvatarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D171EDA621711F7000FCF15D /* AvatarCell.swift */; };
 		D1ED4B9B216ED9E300697255 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1ED4B9A216ED9E300697255 /* AppDelegate.swift */; };
 		D1ED4BA0216ED9E300697255 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1ED4B9E216ED9E300697255 /* Main.storyboard */; };
 		D1ED4BA2216ED9E400697255 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1ED4BA1216ED9E400697255 /* Assets.xcassets */; };
@@ -29,6 +31,8 @@
 		CA35C163863C281180AE5EA9 /* Pods_smack.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_smack.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D171EDA02170EE9700FCF15D /* RoundedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
 		D171EDA221710A6900FCF15D /* UserDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDataService.swift; sourceTree = "<group>"; };
+		D171EDA421711C5800FCF15D /* AvatarPickerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarPickerVC.swift; sourceTree = "<group>"; };
+		D171EDA621711F7000FCF15D /* AvatarCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarCell.swift; sourceTree = "<group>"; };
 		D1ED4B97216ED9E300697255 /* smack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = smack.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1ED4B9A216ED9E300697255 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D1ED4B9F216ED9E300697255 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -112,6 +116,7 @@
 				D1ED4BB6216EDF2600697255 /* ChannelVC.swift */,
 				D1ED4BBD216F970100697255 /* LoginVC.swift */,
 				D1ED4BC0216F9B6A00697255 /* CreateAccountVC.swift */,
+				D171EDA421711C5800FCF15D /* AvatarPickerVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -121,6 +126,7 @@
 			children = (
 				D1ED4BB8216F814800697255 /* GradientView.swift */,
 				D171EDA02170EE9700FCF15D /* RoundedButton.swift */,
+				D171EDA621711F7000FCF15D /* AvatarCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -287,6 +293,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D1ED4BB7216EDF2600697255 /* ChannelVC.swift in Sources */,
+				D171EDA521711C5800FCF15D /* AvatarPickerVC.swift in Sources */,
 				D171EDA12170EE9700FCF15D /* RoundedButton.swift in Sources */,
 				D1ED4BB5216EDF1000697255 /* ChatVC.swift in Sources */,
 				D171EDA321710A6900FCF15D /* UserDataService.swift in Sources */,
@@ -294,6 +301,7 @@
 				D1ED4BC4216FD80500697255 /* AuthService.swift in Sources */,
 				D1ED4BBE216F970100697255 /* LoginVC.swift in Sources */,
 				D1ED4BB9216F814800697255 /* GradientView.swift in Sources */,
+				D171EDA721711F7000FCF15D /* AvatarCell.swift in Sources */,
 				D1ED4B9B216ED9E300697255 /* AppDelegate.swift in Sources */,
 				D1ED4BB3216EDD5C00697255 /* SWRevealViewController.m in Sources */,
 				D1ED4BBC216F93B100697255 /* Constants.swift in Sources */,
